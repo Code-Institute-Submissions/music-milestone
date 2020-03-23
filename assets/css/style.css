@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+#cover-home-image{
+  height: 600px;
+  width: 100%;
+  background:url("assets/images/uke.jpg") no-repeat center center;
+
+  animation-name: cover-focus;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cover-focus{
+  from{
+      transform: scale(1.2);
+  }
+  to{
+      transform: scale(1);
+  }
+}
