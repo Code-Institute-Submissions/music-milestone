@@ -2,9 +2,19 @@
 
 /*-------------- Nav -----------------*/
 
-#navbar {
+.desktop-nav {
     background-color:#000000;
 }
+
+.mobile-nav {
+    color: pink;
+    background-color: black;
+}
+
+#mobile-nav {
+    display: none;
+}
+
 
 
 
@@ -15,7 +25,6 @@
   background:url("../images/uke-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
   animation-name: cover-focus;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -39,18 +48,29 @@ h2 {
 
 /*-------------- About -------------*/
 
-#about div {
+#about-text {
     display: inline-block;
     color: #000000;
-    width: 25%;
-    height: 500px;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    margin: 2px;
+    font-size: 150%;
+    font-family: 'Inter', sans-serif;
+    width: 45%;
+    height: 120%;
+    padding: 100px 0 150px 50px;
+    text-align: left;
+    margin: 40px;
 }
 
-#about-uke-image {
+#about-image {
      background:url("../images/uke-home.jpg");
+     display: inline-block;
+     width: 400px;
+     height: 400px;
+     text-align: center;
+     margin: 30px 30px 0 40px;
+     border-style: dashed;
+     border-color: #cccccc;
+     border-width: 3px;
+     border-radius: 50%;
 }
 
 
@@ -123,9 +143,32 @@ footer {
 
 /*--------------- Media --------------*/
 
-
 @media only screen and (max-width:600px)
 {
+#desktop-nav {
+    display: none;
+}
+
+#mobile-nav {
+    display: block;
+}
+#mobile-nav ul li {
+    display: inline;
+}
+
+#about div {
+    display: block;
+    margin: 0;
+    padding: 15px;
+}
+
+#about-text {
+    width: 100%;
+    text-align: center;
+}
+
+
+
 #week-days div {
     display: block;
     max-height: 50px;
@@ -134,10 +177,9 @@ footer {
 }
 
 footer {
-
+    max-height: 50px;
+    padding: 1%;
+    margin-top: 2%;
 }
- nav {
-
- }
 
 }
