@@ -2,20 +2,19 @@
 
 /*-------------- Nav -----------------*/
 
-.desktop-nav {
-    background-color:#000000;
-}
-
 .mobile-nav {
-    color: pink;
-    background-color: black;
+    font-size: 150%;
+    width: 100%;
+    text-align: center;
+}
+.mobile-nav i {
+    padding: 0 20px 0 20px;
+    margin: 5px;
 }
 
 #mobile-nav {
     display: none;
 }
-
-
 
 
 /*-------------- Cover -------------*/
@@ -107,7 +106,42 @@ h2 {
     background-color:palevioletred;
 }
 
+/*-------------- Play -------------*/
 
+.container {
+    background-color: aqua;
+}
+
+.table-responsive {
+    background-color: brown;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    margin: 10%;
+}
+
+.string {
+    background: #000000;
+    line-height: 70%;
+    color: white;
+    font: bold;
+}
+
+.fret {
+    line-height: 200%;
+}
+
+.table-responsive td {
+   width: 25%;
+   padding-right: 4%;
+}
+
+#video {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    margin: 10%;
+}
 
 /*-------------- Key Frames -------------*/
 @keyframes cover-focus{
@@ -150,11 +184,9 @@ footer {
 }
 
 #mobile-nav {
-    display: block;
-}
-#mobile-nav ul li {
     display: inline;
 }
+
 
 #about div {
     display: block;
@@ -166,8 +198,6 @@ footer {
     width: 100%;
     text-align: center;
 }
-
-
 
 #week-days div {
     display: block;
