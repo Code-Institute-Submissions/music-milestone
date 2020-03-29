@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Inria+Sans:100,200,300,400,500,600,700|Inter:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:100,200,300,400,500,600,700|Poppins:100,200,300,400,500,600,700|Open+Sans+Condensed:100,200,300,400,500,600,700|Rajdhani:100,200,300,400,500,600,700');
 
 /*-------------- Nav -----------------*/
 
 .mobile-nav {
-    font-size: 150%;
-    width: 100%;
+    font-size: 140%;
+    max-width: 100%;
     text-align: center;
     opacity: 0.6;
 }
 .mobile-nav i {
-    padding: 0 20px 0 20px;
+    padding: 0 18px 0 18px;
 }
 
 #mobile-nav {
@@ -33,10 +33,16 @@
 /*------------- Global ----------*/
 
 h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 20px;
     text-align:center;
     color: #708090;
+}
+
+header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
 }
 
 /*-------------- Home -------------*/
@@ -49,11 +55,12 @@ h2 {
     display: inline-block;
     width: 70%;
     font-size: 150%;
-    font-family: 'Inria Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     background-color: lightgray;
     opacity: 0.4;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 #cta-links {
@@ -71,6 +78,7 @@ h2 {
     padding: 10px 0 10px 10px;
     text-align: center;
     font-size: 200%;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 5px;
     border-radius: 8px;
 }
@@ -83,17 +91,27 @@ h2 {
 
 /*-------------- About -------------*/
 
+#about {
+    background:url("../images/about-bg.jpg") no-repeat;
+    padding: 100px;
+    margin-bottom: 30px;
+}
+
+#about-container {
+    background: #ffffff;
+    opacity: 0.9;
+    width: 60%;
+}
+
 #about-text {
     display: inline-block;
-    background-color: lightgray;
     color: #708090;
-    font-size: 150%;
-    font-family: 'Inter', sans-serif;
-    width: 45%;
-    height: 120%;
-    padding: 100px 0 150px 50px;
+    font-size: 120%;
+    font-family: 'Archivo Narrow', sans-serif;
+    width: 50%;
+    height: 60%;
+    padding: 0 0 30px 20px;
     text-align: left;
-    margin: 40px;
 }
 
 #about-image {
@@ -102,8 +120,7 @@ h2 {
      display: inline-block;
      width: 300px;
      height: 300px;
-     text-align: center;
-     margin: 30px 30px 0 40px;
+     margin: 40px 0 0 20px;
      border-style: solid;
      border-color: #cccccc;
      border-width: 3px;
@@ -113,28 +130,42 @@ h2 {
 
 /*-------------- Booking -------------*/
 
+#book-class {
+    color: #708090;
+    font-size: 100%;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#email {
+    width: 70%;
+    color: #708090;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
 #calendar {
     width: 100%;
     text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #calendar-heading {
     color: #ffffff;
-    background-color: #000000;
+    background-color: lightgray;
     display: block;
     text-align: center;
     width: 100%;
     padding: 20px;
+    margin: 30px 0 10px 0;
 }
 
 #week-days div {
     display: inline-block;
     width: 18%;
-    height: 400px;
-    padding: 30px 0 0 10px;
+    height: 70%;
+    padding: 30px 0 15px 10px;
     text-align: center;
     font-size: 200%;
-    margin: 20px 10px 20px 10px;
+    margin: 40px 10px 100px 10px;
     background-color: lavender;
 }
 
@@ -145,7 +176,6 @@ h2 {
 
 #email input {
     background-color: white;
-    color: #708090;
     display: inline-block;
     width: 30%;
     padding: 5px 0 5px 5px;
@@ -161,21 +191,15 @@ h2 {
     padding: 20px 20px 10px 20px;
 }
 
-#calendar input {
-    background-color: lavender;
-    color: #708090;
+#week-days input {
+    background-color: palevioletred;
+    color: white;
     display: inline-block;
     width: 90%;
-    padding: 10px 0 10px 10px;
     text-align: center;
     font-size: 100%;
     margin: 5px;
     border-radius: 8px;
-}
-
-#calendar input:hover {
-    background-color: palevioletred;
-    color:white;
 }
 
 h3 {
@@ -188,18 +212,34 @@ span {
 
 /*-------------- Play -------------*/
 
+#instructions {
+    background: lightgray;
+    width: 50%;
+}
+
+#numbers {
+    font-size: 200%;
+    color: black;
+}
+
+#play-uke {
+    color: #708090;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 150%;
+    padding: 20px 20px 10px 20px;
+}
 
 .table {
     background: url("../images/uke-bg.jpg");
     display: inline-block;
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin: 9%;
 }
 
 .string {
     background: #000000;
-    line-height: 50%;
+    line-height: 30%;
     color: white;
     font: bold;
 }
@@ -211,15 +251,16 @@ span {
 .table td {
    width: 25%;
    border: 1px solid #000000;   
-
 }
 
-#video {
-    display: absolute;
-    width: 80%;
-    text-align: center;
-    margin: 10%;
+.table button {
+    width: 100%;
 }
+
+audio {
+    width: 25%;
+}
+
 
 /*-------------- Key Frames -------------*/
 @keyframes cover-focus{
@@ -265,40 +306,68 @@ footer {
     display: inline;
 }
 
-#cta button {
-    width: 100%;
+#cta-links {
+    margin: 0;
 }
 
-#about div {
-    display: block;
-    margin: 0;
-    padding: 15px;
+#cta button {
+    width: 90%;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+#about {
+    width:100%;
+    background: lightgray;
+    padding: 0;
+}
+
+#about-container {
+    width:100%;
 }
 
 #about-text {
     width: 100%;
     text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+#about-image {
+    margin: 0 0 0 30px;
+}
+
+#calendar {
+    margin-bottom: 30px;
 }
 
 #week-days div {
-    display: block;
-    max-height: 50px;
-    width: 100%;
-    padding: 3px 0 0 3px;
-}
-
-#video {
-    display: relative;
+    display: inline-block;
+    max-height: 50%;
     width: 80%;
-    height: auto;
-    position: relative;
+    margin: 0 0 5px 0;
 }
 
+#email input {
+    width: 70%;
+}
+
+#calendar-heading {
+    padding: 5px;
+    margin: 20px 0 10px 0;
+}
+
+#calendar input {
+    padding: 0;
+    margin: 0;
+}
 
 footer {
+    max-width: 100%;
     max-height: 50px;
     padding: 1%;
     margin-top: 2%;
+    text-align: center;
 }
 
 }

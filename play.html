@@ -34,9 +34,12 @@
 <section id="play-uke">
       <div id="play-heading">
           <h2>Play the Ukulele</h2>
-          <p> The tone and volume of the ukulele vary with size and construction. Ukuleles commonly come in four sizes: soprano, concert, tenor, and baritone. 
-          <br>Play a song by clicking the numbers below:
-          <br>1 2 3 2 1 2 3 4 5</p>
+      </div>
+      <div id="instructions">
+          <p> The tone and volume of the ukulele vary with size and construction. 
+          <br>Ukuleles commonly come in four sizes: soprano, concert, tenor, and baritone. 
+          <br>Try playing a ukulele riff by clicking these numbers on the fretboard below:
+          <br><span id="numbers">2 6 5 3 4 6 2 1 5 5 5 4</span></p>
         </div>
 </section>
 <section>
@@ -44,15 +47,48 @@
     <div class="table">
         <table>
         <tr class="string">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr class="fret">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr class="string">
+        <td></td>
+        <td></td>
+        <td></td>
         <td><button type="button" >1</button></td>
+        <audio controls>
+  <source src="assets/audio/note1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+        </td>
+        <td></td>
+        </tr>
+        <tr class="fret">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr class="string">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button type="button" >2</button></td>
         <audio>
-        <source target="_blank" src="placeholder.mp3" type="audio/mpeg">
+        <source target="_blank" src="assets/audio/note2.mp3" type="audio/mpeg">
         Your browser does not support this audio.
-        </audio>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        </audio></td>
         </tr>
         <tr class="fret">
         <td></td>
@@ -62,48 +98,40 @@
         <td></td>
         </tr>
         <tr class="string">
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        </tr>
-        <tr class="fret">
+        <td><button type="button" >3</button></td>
+        <audio>
+        <source target="_blank" src="assets/audio/note3.mp3" type="audio/mpeg">
+        Your browser does not support this audio.
+        </audio></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        </tr>
-        <tr class="string">
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        </tr>
-        <tr class="fret">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        </tr>
-        <tr class="string">
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
+        <td><button type="button" >4</button></td>
+        <audio>
+        <source target="_blank" src="assets/audio/note4.mp3" type="audio/mpeg">
+        Your browser does not support this audio.
+        </audio></td>
+        <td><button type="button" >5</button></td>
+        <audio>
+        <source target="_blank" src="assets/audio/note5.mp3" type="audio/mpeg">
+        Your browser does not support this audio.
+        </audio></td>
+        <td><button type="button" >6</button></td>
+        <audio>
+        <source target="_blank" src="assets/audio/note6.mp3" type="audio/mpeg">
+        Your browser does not support this audio.
+        </audio></td>
         </tr>
         </table>
     </div>
     </div>
 </section>
-<section id="video">
-    <div class="container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/JLJrnW3hMU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
+<section id="cta-links">
+    <div id="cta">
+    <div>
+    <a href="about.html"><button>Learn More</button></a>
+    </div>
+    <div
+    ><a href="booking.html"><button>Book a Class</button></a>
+    </div>
     </div>
 </section>
 <footer>
