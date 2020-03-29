@@ -212,21 +212,32 @@ span {
 
 /*-------------- Play -------------*/
 
+#play-uke {
+    display: block;
+    color: #708090;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 175%;
+    padding: 20px 20px 10px 50px;
+}
+
 #instructions {
-    background: lightgray;
-    width: 50%;
+    background: lavender;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 20px 10px 50px;
 }
 
 #numbers {
     font-size: 200%;
-    color: black;
+    color: #708090;
+    text-align: center;
+    padding: 100px;
 }
 
-#play-uke {
-    color: #708090;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 150%;
-    padding: 20px 20px 10px 20px;
+#fretboard .container {
+    background-color: lightgray;
+    margin-top: 20px;
 }
 
 .table {
@@ -239,26 +250,32 @@ span {
 
 .string {
     background: #000000;
-    line-height: 30%;
+    line-height: 40%;
     color: white;
     font: bold;
 }
 
 .fret {
-    line-height: 195%;
+    line-height: 175%;
 }
 
 .table td {
-   width: 25%;
+   width: 50%;
    border: 1px solid #000000;   
 }
 
 .table button {
     width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 150%;
+    text-align: left;
+    border-color: #000000;
 }
 
-audio {
-    width: 25%;
+.table td audio {
+    width: 50%;
+    margin-left: 30px;
 }
 
 /*-------------- Key Frames -------------*/
@@ -359,6 +376,38 @@ footer {
 #calendar input {
     padding: 0;
     margin: 0;
+}
+
+#play-uke {
+    font-size: 120%;
+    padding: 0;
+}
+
+#instructions {
+    width: 100%;
+    padding: 20px;
+}
+
+#numbers {
+    color: #708090;
+    font-size: 120%;
+    text-align: center;
+    padding: 40px 0 0 20px;
+}
+
+.table td {
+   width: 50%;
+   border: 1px solid #000000;   
+}
+
+.table button {
+    width: 150%;
+    font-size: 75%;
+}
+
+.table td audio {
+    width: 90%;
+    margin-left: 0;
 }
 
 footer {

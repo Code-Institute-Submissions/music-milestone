@@ -30,96 +30,76 @@
         </div>
     </nav>
 </header>
-<section>
-<section id="play-uke">
-      <div id="play-heading">
+<section id="heading">
+     <div id="play-heading">
           <h2>Play the Ukulele</h2>
       </div>
+</section>
+<section id="play-uke">
       <div id="instructions">
           <p> The tone and volume of the ukulele vary with size and construction. 
-          <br>Ukuleles commonly come in four sizes: soprano, concert, tenor, and baritone. 
-          <br>Try playing a ukulele riff by clicking these numbers on the fretboard below:
+          <br>Ukuleles commonly come in four sizes: soprano, concert, tenor, and baritone.<br> 
+          <br>It's your turn! Try playing a ukulele riff by playing the audio for each of these numbers on the fretboard below:
           <br><span id="numbers">2 6 5 3 4 6 2 1 5 5 5 4</span></p>
         </div>
 </section>
 <!-------This section gives the user a really brief introduction to how the ukulele sounds. Ideally it would have some more interactivity so the user could try playing several notes in a row.-->
-<section>
+<section id="fretboard">
     <div class="container">
     <div class="table">
         <table>
         <tr class="string">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        </tr>
-        <tr class="fret">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        </tr>
-        <tr class="string">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><button type="button" >1</button></td>
-        <audio controls>
-  <source src="assets/audio/note1.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-        </td>
+        <td><button type="button" >1<audio controls>
+        <source src="assets/audio/note1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio></button></td>
+        <td><button type="button" >4<audio controls>
+        <source src="assets/audio/note4.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio></button></td>
         <td></td>
         </tr>
         <tr class="fret">
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>1</td>
         </tr>
         <tr class="string">
+        <td><button type="button" >2<audio controls>
+        <source src="assets/audio/note2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio></button></td>
+        <td><button type="button" >5<audio controls>
+        <source src="assets/audio/note5.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio></button></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><button type="button" >2</button></td>
-        <audio>
-        <source target="_blank" src="assets/audio/note2.mp3" type="audio/mpeg">
-        Your browser does not support this audio.
-        </audio></td>
         </tr>
         <tr class="fret">
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>2</td>
         </tr>
         <tr class="string">
-        <td><button type="button" >3</button></td>
-        <audio>
-        <source target="_blank" src="assets/audio/note3.mp3" type="audio/mpeg">
+        <td><button type="button" >3<audio controls>
+        <source src="assets/audio/note3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio></button></td>
+        <td><button type="button" >6<audio controls>
+        <source src="assets/audio/note6.mp3" type="audio/mpeg">
         Your browser does not support this audio.
-        </audio></td>
+        </audio></button></td>
         <td></td>
-        <td><button type="button" >4</button></td>
-        <audio>
-        <source target="_blank" src="assets/audio/note4.mp3" type="audio/mpeg">
-        Your browser does not support this audio.
-        </audio></td>
-        <td><button type="button" >5</button></td>
-        <audio>
-        <source target="_blank" src="assets/audio/note5.mp3" type="audio/mpeg">
-        Your browser does not support this audio.
-        </audio></td>
-        <td><button type="button" >6</button></td>
-        <audio>
-        <source target="_blank" src="assets/audio/note6.mp3" type="audio/mpeg">
-        Your browser does not support this audio.
-        </audio></td>
+        </tr>
+        <tr class="fret">
+        <td></td>
+        <td></td>
+        <td>3</td>
+        </tr>
+        <tr class="string">
+        <td></td>
+        <td></td>
+        <td></td>
         </tr>
         </table>
     </div>
