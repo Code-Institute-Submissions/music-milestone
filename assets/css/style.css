@@ -107,7 +107,7 @@ h2 {
      border-style: solid;
      border-color: #cccccc;
      border-width: 3px;
-     border-radius: 20%;
+     border-radius: 50%;
 }
 
 
@@ -189,28 +189,29 @@ span {
 /*-------------- Play -------------*/
 
 
-.table-responsive {
-    background-color: brown;
+.table {
+    background: url("../images/uke-bg.jpg");
     display: inline-block;
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin: 9%;
 }
 
 .string {
     background: #000000;
-    line-height: 70%;
+    line-height: 50%;
     color: white;
     font: bold;
 }
 
 .fret {
-    line-height: 200%;
+    line-height: 195%;
 }
 
-.table-responsive td {
+.table td {
    width: 25%;
-   padding-right: 4%;
+   border: 1px solid #000000;   
+
 }
 
 #video {
