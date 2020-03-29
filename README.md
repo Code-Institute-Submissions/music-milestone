@@ -1,67 +1,172 @@
-......TO BE COMPLETED.......
+# Ukulele Website
+This is a website about the ukulele, a popular Hawaiian musical instrument. The website contains a brief history of the ukulele, an introduction to the sounds of the ukulele and a booking facility where users can book online ukulele classes. The site content helps beginners to learn more about the ukulele and allows site owners to showcase interesting information about the instrument and encourage users to take their online classes.
 
-Your Project's Name
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
+## UX
+### Who is this website for?
+*Enthusiasts - People who want to learn about the ukulele and have very little knowledge of it 
+*Students- People who wish to take ukulele classes online
+*Teachers - Ukulele players who wish to give classes online and build their business
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### User Stories
+1. As a ukulele enthusiast, I want to find information about the ukulele so that I can build my knowledge. 
+- This user can find information in the 'About' and 'Play' sections of the website.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+2. As a ukulele student, I want to hear some of the basic notes so that I can prepare for my first class. 
+- This user can listen to the audio in the 'Play' section of the website.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+3. As a ukulele student, I want to book my next online class so that I can attend it and improve my skills. 
+- This user can book their next class in the 'Booking' section of the website.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+4. As a ukulele teacher, I want to have a simple booking system available on my website so that I can display my class schedule easily and share it with my current students and prospective students who come across my website. 
+- This user (as a site owner) can use the booking system in the 'Booking' section of the website.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+5. As a ukulele teacher, I want to showcase my teaching skills by presenting interesting information on my website so that I can demonstrate my expertise and attract new students to my classes. 
+- This user (as a site owner) can add their content and news to the 'Home', 'About' and 'Play' sections of the website.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Wireframes
+The original wireframes for this project are located in the 'wireframe' folder:
+* Desktop layout (wireframe/ukulele.pdf)
+* Mobile layout (wireframe/mobile-wireframe.pdf)
 
-Features Left to Implement
-Another feature idea
-Technologies Used
+
+## Features
+
+### Existing Features
+**Navbar**- There are two version of the navbar (one for desktop and one for mobile) that were created using Bootstrap. The consist navigation panel on each page allows users to navigate easily through the site. 
+
+**CTA Links** There are buttons at the end of the 'About', 'Home' and 'Play' pages that encourage users to quickly navigate to other pages on the site that they are likely to wish to visit once they've scrolled through the current page.
+
+**Booking Form** There is a booking form on the 'Booking' page that allows users to input their name and email address and to book a class - this is currently static. 
+
+**Musical Ukulele** The 'Play' page has a basic table with audio embedded that the user can click to hear individual notes.
+
+
+## Features Left to Implement
+**Booking Form** I'd like to build on the booking form so that the user instantly receives confirmation of their booking on screen, as well as an automated email to say they've signed up. I'd also like to extend the calendar view so that users can page through it to the following weeks and book classes well in advance if they wish.
+
+**Live Class Page** I'd like to add a page where the online classes are shown when the teacher goes live. Students could log in to this page and access their classes and schedule easily. The teacher could also opt to store class videos and tutorials here for revision.
+
+**Interactive Musical Ukulele** I'd like to add more features to the 'Play' page so that users could 'play' the ukulele more easily and have more choice of notes. This section could also display demos and have a searchable songbook.
+
+## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+**HTML**
+This project uses HTML to structure the pages and website.
+
+**CSS** 
+This project uses CSS to style each of the website pages.
+
+**Bootstrap**
+The project uses Bootstrap to improve navigation within the site. 
+https://getbootstrap.com/
+
+**Font Awesome**
+The project uses Font Awesome to present icons throughout the site.
+https://fontawesome.com/
+
+
+## Testing
+
+### Manual Testing
+This project has been tested manually on desktop and mobile in Chrome and Firefox. 
+
+## Automated Testing
+All HTML pages have been tested using the HTML validator
+
+The CSS file has been tested 
+
+All images are under 5MB to ensure they load quickly. 
+
+**User Stories**
+
+1. *As a ukulele enthusiast, I want to find information about the ukulele so that I can build my knowledge.* 
+**Test and Result**
+Open the 'Home' page.
+Select 'About' in the navbar. 
+'About' page displays. 
+Scroll to end of page. 
+Select 'Play the Ukulele'.
+'Play' page displays. 
+Click/Tap different notes to check audio files are working.
+
+-
+
+2. *As a ukulele student, I want to hear some of the basic notes so that I can prepare for my first class.* 
+
+**Test and Result**
+Open the 'Home' page.
+Select 'Play' in the menu. 
+'Play' page displays. 
+Click/Tap different notes to check audio files are working.
+
+- 
+
+3. *As a ukulele student, I want to book my next online class so that I can attend it and improve my skills.* 
+
+**Test and Result**
+Open the 'Home' page.
+Select 'Booking' in the menu. 
+'Booking' page displays. 
+Enter name.
+Enter email address.
+Select different class slots to ensure they are clickable. 
+
+- Class slots are clickable but don't trigger a response - this is as designed. 
+
+
+4. *As a ukulele teacher, I want to have a simple booking system available on my website so that I can display class schedule easily and share it with my current students and prospective students who come across my website.* 
+
+**Test and Result**
+*Note:* This test is to ensure the schedule is viewable as it can't be edited by a site owner yet.
+Open the 'Home' page.
+Select 'Booking' in the menu. 
+'Booking' page displays and weekly schedule is presented.
+
+- Class slots are presented clearly for the week. Schedule displays horizontally on desktop and vertically for mobile.
+
+
+5. *As a ukulele teacher, I want to showcase my teaching skills by presenting interesting information on my website so that I can demonstrate my expertise and attract new students to my classes.* 
+
+**Test and Result**
+*Note:* This test is to ensure the content is viewable as it can't be edited by a site owner yet.
+Open the 'Home' page.
+Select 'About' in the menu. 
+'About' page displays.
+Select 'Play' in the menu. 
+'Play' page displays.
+
+- Content is presented using different media formats and scales for mobile version.
+
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+## Deployment
+This project has been deployed to GitHub Pages and can be accessed using the following link:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+XXXXXXXXXXXXXXXXXXXXXX
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Once the wireframes were finalised, the project was built and indiviual pages were tested at different stages throughout the project. The first deployment to GitHub pages took place when the full website structure was in place and the GitHub Page link has been updated for testing when key additions were made.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+
+## Credits
+
+### Content
+*About - The text for the 'About' page was copied from this Wikipedia article: https://en.wikipedia.org/wiki/Ukulele
+*Home - The quote from Tracy Chapman was copied from brainyquote.com
+
+### Media
+*All of the photos used in this site were downloaded from unsplash.com from the following contributors:
+about-bg.jpg - Photo by Julian Myles on Unsplash
+uke-about.jpg - Photo by Johannes Weber on Unsplash
+uke-bg.jpg - Photo by Joints Creative on Unsplash
+uke-home.jpg - Photo by Minh Trần on Unsplash
+
+*The audio in this site was recorded specifically for this project.
+
+### Acknowledgements
+I received inspiration for this project from ultimateguitar.com and the course material I've covered to date, and I used stackoverflow.com and w3schools.com for help with troubleshooting during the project. 
